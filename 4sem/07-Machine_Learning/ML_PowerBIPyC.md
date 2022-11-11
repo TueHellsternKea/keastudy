@@ -161,7 +161,7 @@ By default, PyCaret trains a **K-Means Clustering model **with 4 clusters. Defau
 - To change the cluster number, use the **num_clusters** parameter.
 
 Example code for K-Modes Clustering with 6 clusters
-
+ 
 ```python
 from pycaret.clustering import *
 dataset = get_clusters(dataset, model='kmodes', num_clusters=6, ignore_features=['Country'])
